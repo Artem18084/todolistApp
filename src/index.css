@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+    margin: 0;
+    padding: 0;
+    
+  }
+  html {
+    font-family: "Libre Franklin", sans-serif;
+  }
+  /* .taskList {
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+  } */
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+
+  position: absolute;
+  color: transparent;
+  right: 0;
+  top: 0;
+  width: auto;
+}
