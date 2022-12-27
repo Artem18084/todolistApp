@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import ListThemes from "./Components/listThemes/ListThemes";
 
-import ModalsContact from "./Components/ModalContact/ModalsContact.jsx";
+
 import Sidebar from "./Components/Sidebar/Sidebar";
 
 import TasksArea from "./Components/TasksArea/TasksArea";
