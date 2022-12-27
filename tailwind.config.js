@@ -5,12 +5,12 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "hero-parent":
-          "url(./images/backgraund/noch-1280x720-nebo-zvezdi-otrajenie-ozero-23779 1.png)",
+          "url(./images/backgraund/parentBG.svg)",
           
         sea: "url(./images/taskArea/sea.png)",
-        auturmn: "url(./images/taskArea/auturmn.jpeg)",
-        christmas: "url(./images/taskArea/christmas.jpg)",
-        springForest: "url(./images/taskArea/SpringForest.jpg)",
+        auturmn: "url(./images/taskArea/auturmn.png)",
+        christmas: "url(./images/taskArea/christmas.png)",
+        springForest: "url(./images/taskArea/SpringForest.png)",
 
         noTask:
           "url(./images/taskArea/noTaskYet/275-2751491_vector-free-stock-review-clipart-magnifying-glass-search.png)",

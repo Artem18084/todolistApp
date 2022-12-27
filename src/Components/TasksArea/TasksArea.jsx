@@ -169,7 +169,7 @@ export default function TasksArea({
       ></div>
 
       <div
-        className={`absolute flex items-between justify-center bottom-[50%] left-[50%] translate-x-[-50%] translate-y-[50%]  pt-4 px-4 w-[35%] h-[40%] bg-teal-100  rounded-[1rem] ${
+        className={`absolute flex items-between justify-center bottom-[50%] left-[50%] translate-x-[-50%] translate-y-[50%]  pt-4 px-4 w-[35%] h-[40%] bg-slate-300  rounded-[1rem] ${
           !modalActive ? "scale-0" : "scale-100"
         }
           }`}

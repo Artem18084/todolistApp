@@ -42,7 +42,7 @@ export default function ListThemes(props) {
         <ItemThemes setThemes={forestActive} themes={props.forest}name="Forest" />
         <ItemThemes setThemes={seaActive} themes={props.sea}  name=" Sea" />
         <ItemThemes setThemes={christmasActive} themes={props.christmas} name=" Christmas" />
-        <ItemThemes setThemes={auturmnActive} themes={props.auturmn} name=" Autumn" />
+        <ItemThemes setThemes={auturmnActive} themes={props.auturmn} name=" Auturmn" />
 
 
 
